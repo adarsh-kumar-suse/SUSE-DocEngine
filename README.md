@@ -1,6 +1,6 @@
 # SUSE DocEngine
 
-Clean and fresh project copy created from `golu2`.
+#note - try it in sles15sp7 and do install full DAPS 
 
 ## What is included
 - Frontend + backend source code
