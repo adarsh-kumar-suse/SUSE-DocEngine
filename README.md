@@ -53,9 +53,5 @@ npm run check:final-parity
 - `references/` partner reference assets
 - `tests/` and `e2e/` test suites
 
-## Notes
-- This folder is intended as a clean baseline copy for version control and sharing.
-- Install dependencies after cloning.
-=======
-# SUSE-DocEngine
+
 
