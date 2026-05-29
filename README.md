@@ -1,4 +1,4 @@
-# Final SUSE DocEngine
+# SUSE DocEngine
 
 Clean and fresh project copy created from `golu2`.
 
