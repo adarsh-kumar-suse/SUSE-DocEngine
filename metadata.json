@@ -1,0 +1,6 @@
+{
+  "name": "SUSE DocEngine",
+  "description": "Enterprise-grade documentation automation platform converting Google Docs to SUSE-compliant AsciiDoc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,53 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile and integration tokens",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "googleToken": { "type": "string" },
+        "githubToken": { "type": "string" },
+        "lastLogin": { "type": "string", "format": "date-time" },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "defaultRepo": { "type": "string" },
+            "defaultBranch": { "type": "string" }
+          }
+        }
+      },
+      "required": ["uid", "email"]
+    },
+    "PipelineJob": {
+      "title": "Pipeline Job",
+      "description": "Record of a document transformation process",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "googleDocId": { "type": "string" },
+        "googleDocUrl": { "type": "string" },
+        "googleDocTitle": { "type": "string" },
+        "status": { "type": "string", "enum": ["pending", "processing", "completed", "failed"] },
+        "asciiDocContent": { "type": "string" },
+        "githubPrUrl": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "error": { "type": "string" }
+      },
+      "required": ["userId", "googleDocId", "status", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User data and preferences"
+    },
+    "/jobs/{jobId}": {
+      "schema": "PipelineJob",
+      "description": "Pipeline execution records"
+    }
+  }
+}

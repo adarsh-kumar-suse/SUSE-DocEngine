@@ -1,0 +1,20 @@
+[
+  {
+    "token": "6665eaecbff3a80079c5b7f7b15f3a2fa79344d94647c8afbbbb6ed3fe0945af8f52443303becd414c208dfd6d3d5bb7",
+    "createdAt": "2026-05-26T10:45:25.092Z",
+    "expiresAt": "2026-06-02T10:45:25.092Z",
+    "id": "local-admin-1778675309925",
+    "email": "admin@local",
+    "displayName": "System Admin",
+    "provider": "local"
+  },
+  {
+    "token": "05a1260c529b4d353b96dd3998e2657acbb5fa7ffa3f44e2a7312010ce05fb8af1890893eddf0a1fc938ac92fbf33bd0",
+    "createdAt": "2026-05-28T13:00:56.865Z",
+    "expiresAt": "2026-06-04T13:00:56.865Z",
+    "id": "local-admin-1778675309925",
+    "email": "admin@local",
+    "displayName": "System Admin",
+    "provider": "local"
+  }
+]

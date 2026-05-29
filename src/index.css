@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* SUSE Brand Colors */
+  --color-suse-pine: var(--theme-pine);
+  --color-suse-jungle: var(--theme-jungle);
+  --color-suse-water: #00A3CC;
+  --color-suse-dark: var(--theme-dark);
+}
+
+@layer base {
+  html.dark-green {
+    color-scheme: dark;
+  }
+  html.light-green {
+    color-scheme: light;
+  }
+  :root {
+    --theme-pine: #30BA78;
+    --theme-jungle: #173238;
+    --theme-dark: #0c1c20;
+    --theme-text: #f3f4f6;
+  }
+  .light-green {
+    --theme-pine: #1b8a53;
+    --theme-jungle: #eaf5f0;
+    --theme-dark: #f0f8f5;
+    --theme-text: #1f2937;
+  }
+  
+  body {
+    @apply bg-suse-dark text-[var(--theme-text)] font-sans antialiased;
+  }
+}
+
+.suse-card {
+  @apply bg-suse-jungle/40 border border-suse-pine/20 rounded-lg backdrop-blur-sm shadow-xl;
+}
+
+.suse-button-primary {
+  @apply bg-suse-pine hover:bg-suse-pine/90 text-white font-semibold py-2 px-4 rounded transition-all active:scale-95 disabled:opacity-50;
+}
+
+.suse-button-outline {
+  @apply border border-suse-pine text-suse-pine hover:bg-suse-pine/10 font-semibold py-2 px-4 rounded transition-all active:scale-95;
+}
+
+.suse-input {
+  @apply bg-suse-dark/50 border border-suse-pine/30 rounded-md py-2 px-3 text-white focus:outline-none focus:ring-2 focus:ring-suse-pine/50 transition-all;
+}
+
+.glass-panel {
+  background: rgba(23, 50, 56, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(48, 186, 120, 0.1);
+}
+
+.light-green body {
+  color: #1f2937;
+}
+
+.light-green .suse-card {
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(27, 138, 83, 0.22);
+  box-shadow: 0 10px 30px rgba(16, 64, 43, 0.08);
+}
+
+.light-green .suse-input {
+  color: #1f2937;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.light-green .glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(27, 138, 83, 0.18);
+}
+
+/* Global light-theme contrast fixes across pages/components */
+.light-green .app-brand-title {
+  background: none !important;
+  color: #365e52 !important;
+  -webkit-text-fill-color: #365e52 !important;
+}
+
+.light-green .text-white {
+  color: #14392c !important;
+}
+
+.light-green .text-gray-100,
+.light-green .text-gray-200 {
+  color: #1f3f34 !important;
+}
+
+.light-green .text-gray-400 {
+  color: #5e786f !important;
+}
+
+.light-green .text-gray-500,
+.light-green .text-gray-600 {
+  color: #6f857d !important;
+}
+
+.light-green .bg-white\/5 {
+  background-color: rgba(20, 57, 44, 0.07) !important;
+}
+
+.light-green .bg-white\/10 {
+  background-color: rgba(20, 57, 44, 0.1) !important;
+}
+
+.light-green .border-white\/5 {
+  border-color: rgba(20, 57, 44, 0.08) !important;
+}
+
+.light-green .border-white\/10 {
+  border-color: rgba(20, 57, 44, 0.14) !important;
+}
+
+.light-green .hover\:text-white:hover {
+  color: #0e2d22 !important;
+}
+
+/* Prevent dark flash and blank-black option menus in light theme dropdowns */
+.light-green select,
+.light-green option,
+.light-green optgroup {
+  background-color: #f3faf6 !important;
+  color: #1f3f34 !important;
+}
+
+.light-green input::placeholder,
+.light-green textarea::placeholder {
+  color: #6f857d !important;
+}

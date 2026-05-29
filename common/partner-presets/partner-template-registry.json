@@ -1,0 +1,69 @@
+﻿{
+  "capturedOn": "2026-05-13",
+  "registryVersion": 1,
+  "partners": [
+    {
+      "partnerKey": "wso2",
+      "label": "WSO2",
+      "doctype": "rc",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/wso2/adoc/rc_suse-rancher_wso2-openchoreo_dev-platform-vars.adoc?plain=1",
+      "sourceFileName": "rc_suse-rancher_wso2-openchoreo_dev-platform-vars.adoc",
+      "templatePath": "common/partner-presets/templates/wso2-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "clearml",
+      "label": "ClearML",
+      "doctype": "rc",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/clearml/adoc/rc_suse-ai_clearml-vars.adoc?plain=1",
+      "sourceFileName": "rc_suse-ai_clearml-vars.adoc",
+      "templatePath": "common/partner-presets/templates/clearml-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "hitachi",
+      "label": "Hitachi",
+      "doctype": "gs",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/hitachi/adoc/gs_virtualization_hitachi-storage-vars.adoc",
+      "sourceFileName": "gs_virtualization_hitachi-storage-vars.adoc",
+      "templatePath": "common/partner-presets/templates/hitachi-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "ampere",
+      "label": "Ampere",
+      "doctype": "rc",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/ampere/adoc/rc_suse-telco_ampere-vars.adoc?plain=1",
+      "sourceFileName": "rc_suse-telco_ampere-vars.adoc",
+      "templatePath": "common/partner-presets/templates/ampere-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "netapp",
+      "label": "NetApp",
+      "doctype": "gs",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/netapp/adoc/gs_suse-virtualization_netapp-trident_iscsi-vars.adoc?plain=1",
+      "sourceFileName": "gs_suse-virtualization_netapp-trident_iscsi-vars.adoc",
+      "templatePath": "common/partner-presets/templates/netapp-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "supermicro",
+      "label": "Supermicro",
+      "doctype": "rc",
+      "sourceUrl": "https://github.com/adarsh-kumar-suse/technical-reference-documentation/blob/main/references/supermicro/adoc/rc_suse-telco_supermicro-intel_ai-native-vars.adoc?plain=1",
+      "sourceFileName": "rc_suse-telco_supermicro-intel_ai-native-vars.adoc",
+      "templatePath": "common/partner-presets/templates/supermicro-vars.adoc",
+      "comingSoon": false
+    },
+    {
+      "partnerKey": "custom",
+      "label": "Custom",
+      "doctype": null,
+      "sourceUrl": "",
+      "sourceFileName": "",
+      "templatePath": "",
+      "comingSoon": true
+    }
+  ]
+}

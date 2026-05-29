@@ -1,0 +1,8 @@
+flask
+flask-cors
+python-docx
+mammoth
+beautifulsoup4
+requests
+PyGithub
+filetype

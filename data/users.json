@@ -1,0 +1,12 @@
+[
+  {
+    "id": "local-admin-1778675309925",
+    "email": "admin@local",
+    "displayName": "System Admin",
+    "provider": "local",
+    "username": "admin",
+    "passwordSalt": "07a8936f240bed3595b0b277900f8a55",
+    "passwordHash": "0c2742f8e087c1b7db71d893eedfc343894bfd34ad454ccade6b238ef9f9f4b0836dab2ec03f88c4ec71177ec5ee9675edde968bc826e6c6be86aa101c70457f",
+    "createdAt": "2026-05-13T12:28:29.830Z"
+  }
+]
